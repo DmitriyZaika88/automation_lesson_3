@@ -23,7 +23,7 @@ time.sleep(6)
 
 
 def test_negative_text_input(browser_conf):
-    browser.element('input[name=q]').should(be.blank).type('qwewqefgrhhrfhhfhfhdhdhfshdfhsdf').press_enter()
+    browser.element('input[name=q]').should(be.blank).type('aswasdasdasdasd').press_enter()
     browser.element('div[class="card-section"]').should(have.text('ничего не найдено'))
 
 
